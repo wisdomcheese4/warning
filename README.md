@@ -52,7 +52,6 @@ This addon helps players react quickly to dangerous enemy abilities, improving a
 - **Multiple Alerts**: If moves overlap, they stack vertically; oldest disappears first after 8 seconds.
 
 ## Known Limitations
-- Detects only completed TP moves (category 11), not "readies" (category 7)—can be modified if needed.
 - Audio requires a valid WAV file; no support for other formats.
 - No filtering for specific moves or mobs—alerts on all TP moves targeting party.
 - Performance: In heavy combat with many moves, the menu may grow tall; consider shortening display_time.
