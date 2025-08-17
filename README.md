@@ -24,7 +24,7 @@ This addon helps players react quickly to dangerous enemy abilities, improving a
 ## Installation
 1. **Create Folder**: In your Windower directory, go to `addons` and create a new folder named `warning` (lowercase).
 2. **Save Script**: Copy the provided `warning.lua` code into a file named `warning.lua` inside the `warning` folder.
-3. **Add Sound**: Place your `alert.wav` file in the `warning` folder.
+3. **Add Sound**: Place your `alert.wav` file in the `warning` folder. (For adding custom sound only)
 4. **Load Addon**: In-game, type `//lua load warning` (or add to your init script for auto-loading).
 5. **Optional**: If settings.xml generates in `warning/data/`, you can edit it for customizations (e.g., change sound file name).
 
