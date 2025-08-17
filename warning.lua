@@ -3,8 +3,8 @@
 -- Displays a persistent draggable menu with "No TP Move Detected" in green. Changes to red with TP move details when detected, each listed for 8 seconds.
 
 _addon.name = 'warning'
-_addon.author = 'Grok'
-_addon.version = '2.9'
+_addon.author = 'Wisdomcheese4'
+_addon.version = '1.0'
 _addon.description = 'Warnings for mob TP moves targeting player or party.'
 _addon.commands = {'warn'}
 
@@ -144,4 +144,5 @@ windower.register_event('load', function()
     windower.add_to_chat(207, 'warning loaded. Place alert.wav in addon folder for sound.')
     active_alerts = T{}  -- Clear alerts
     update_display()  -- Ensure starting state
+
 end)
