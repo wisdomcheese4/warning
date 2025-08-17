@@ -1,3 +1,4 @@
+README.md
 Warning Addon for Windower (Final Fantasy XI)
 Overview
 The Warning addon is a tool for Final Fantasy XI players using Windower. It provides real-time alerts for enemy TP (Technique Points) moves used on the player or their party members. The addon displays a persistent, draggable on-screen menu that shows "No TP Move Detected" in green when idle. When a TP move is detected, it switches to red text displaying the move in the format "<tp move=""> --> &#x3C;Player(s) targeted>", and plays an audio cue. Each alert lasts for 8 seconds before disappearing, and multiple alerts are listed on separate lines if detected in quick succession.</tp>
